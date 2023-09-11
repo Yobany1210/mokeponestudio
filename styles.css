@@ -58,6 +58,10 @@ body {
 
 input {
   display: none;
+} 
+
+input:checked + label{
+  background-color: #5D8Bf4;
 }
 
 #seleccionar-ataque {
